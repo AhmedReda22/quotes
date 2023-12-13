@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(../imgs/quds.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+::selection{
+    background-color: #09c;
+    color: #fff;
+}
+.layer{
+    background-color: rgba(0, 153, 204, 0.553);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px 20px 20px;
+    position: relative;
+    margin-top: 40px;
+}
+.box header{
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -40px;
+}
+.box .content{
+    margin: 20px 0px;
+}
+.box .content .quote-desc{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.box .content .quote-desc p{
+    font-size: 1.2rem;
+}
+.box .content .quote-desc i:first-child{
+    margin: -5px 8px 0px 0px;
+    font-size: 16px;
+}
+.box .content .quote-desc i:last-child{
+    margin: 0px 0px 15px 8px;
+    font-size: 16px;
+    display: flex;
+    align-items: flex-end;
+}
+.box .content .author{
+    display: flex;
+    justify-content: flex-end;
+    font-style: italic;
+}
+.box .buttons{
+    border-top: rgb(173, 171, 171) 1px solid;;
+    margin-bottom: -20px;
+}
+.box .buttons .links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.box .buttons .links ul{
+    display: flex;
+    align-items: center;
+}
+.box .buttons .links li{
+    list-style: none;
+    padding: 0px 2px;
+    margin: 0px 5px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 2px #09c solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.box .buttons .links li:hover{
+    color: #fff;
+    background-color: #09c;
+}
+.box .buttons .links button{
+    outline: none;
+    border: none;
+    padding: .55rem 1.25rem;
+    background-color: #09c;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.box .buttons .links button:hover{
+    background-color: rgb(40, 182, 229);
+}
+
+.img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -10%;
+    left: 40%;
+    border: solid 3px #09c;
+}
+
